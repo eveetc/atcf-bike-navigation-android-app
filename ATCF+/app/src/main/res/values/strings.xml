@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ATCF+</string>
+
+    <string name="start_nav_button">Go</string>
+    <string name="restart_nav_button">\uf59f</string>
+    <string name="dummy_content"></string>
+    <string name="compass" translatable="false">compass</string>
+    <string name="location"></string>
+    <string name="distance"></string>
+    <string name="icon_map">\uf59f</string>
+
+
+    <string name="sotw_north">N</string>
+    <string name="sotw_east">E</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">W</string>
+    <string name="sotw_northeast">NE</string>
+    <string name="sotw_northwest">NW</string>
+    <string name="sotw_southeast">SE</string>
+    <string name="sotw_southwest">SW</string>
+</resources>

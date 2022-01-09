@@ -1,0 +1,25 @@
+# As-The-Crow-Flies biking navigation Apps
+These apps have been the basis of my bachelor thesis in the field of Human-Computer Interaction at the University Of Bremen. There are two version, one similar to Beeline and the other having additional features. In general these are As-The-Crow-Flies biking navigation apps. However, they make use of a predefined routing scenario.
+If you are interested in research behind it, take a look at the following paper:
+https://dl.acm.org/doi/10.1145/3379503.3403539
+
+![](ATCF+/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png)
+
+
+# How ACTF+ works
+In addition to direction the user to their destination, the interface warns the user of incoming dead ends and slow routes.
+![](img/howitworks.png)
+### Features
+- Background coloring, when entering a 
+- GPS Tracking with Position filtering
+- Compass Implementation 
+- External Usertracking
+- Saving Locationhistory into a file
+- OSMDroid map
+
+
+# Build
+Build the apk within Android Studio.
+The min. API level is 26.\
+Has not been updated and tested since 08/2019.
+

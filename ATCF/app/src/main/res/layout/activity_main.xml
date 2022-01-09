@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:background="@color/defaultBG"
+    tools:context=".MainActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:animateLayoutChanges="true"
+        android:background="@color/defaultBG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <!--<androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/mapCardView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom|center"-->
+            <!--android:layout_margin="10dip"-->
+            <!--android:minWidth="80dp"-->
+            <!--android:minHeight="80dp">-->
+
+            <!--<org.osmdroid.views.MapView-->
+                <!--android:id="@+id/map"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:background="@color/defaultBG"-->
+                <!--android:foregroundGravity="bottom"-->
+                <!--android:minWidth="80dp"-->
+                <!--android:minHeight="80dp"-->
+                <!--android:visibility="visible" />-->
+
+        <!--</androidx.cardview.widget.CardView>-->
+
+
+        <ImageView
+            android:id="@+id/compass"
+            android:layout_width="129dp"
+            android:layout_height="156dp"
+            android:layout_gravity="center|center_horizontal"
+            android:background="#00FCF5F5"
+            android:contentDescription="@string/compass"
+            android:scaleType="fitCenter"
+            android:tint="#00FCFBFB"
+            app:srcCompat="@drawable/compass" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="10sp"
+            android:contentDescription="@string/distance"
+            android:textColor="#FCFAFA"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="80dp"
+            android:contentDescription="@string/location"
+            android:textColor="#FFFFFF" />
+
+        <!--<Button-->
+        <!--android:id="@+id/restartNav"-->
+        <!--style="@android:style/Widget.Button.Small"-->
+        <!--android:layout_width="45dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:minWidth="20dip"-->
+        <!--android:text="@string/restart_nav_button"-->
+        <!--app:fontFamily="@font/fa_solid_900" />-->
+
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+
+        </LinearLayout>
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/quadrant3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:visibility="invisible"-->
+            <!--app:srcCompat="@drawable/quadrant" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/quadrant0"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:contentDescription="quadrant"-->
+                <!--android:visibility="invisible"-->
+                <!--app:srcCompat="@drawable/quadrant" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/quadrant1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:visibility="invisible"-->
+                <!--app:srcCompat="@drawable/quadrant" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/quadrant2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:visibility="invisible"-->
+                <!--app:srcCompat="@drawable/quadrant" />-->
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/startRecording"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="10dip"
+            android:backgroundTint="@color/TSred"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_menu_save" />
+
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

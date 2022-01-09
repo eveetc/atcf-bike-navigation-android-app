@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#007CBA</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="TSgreen">#18BC9C</color>
+    <color name="TSred">#e74c3c</color>
+    <color name="yellow">#f3eb12</color>
+    <color name="TSorange">#f39c12</color>
+    <color name="defaultBG">#313131</color>
+    <!--<color name="defaultBG">#000000</color>-->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+</resources>
