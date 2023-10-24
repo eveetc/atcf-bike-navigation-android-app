@@ -1,4 +1,4 @@
-# As-The-Crow-Flies biking navigation Apps
+# As-The-Crow-Flies Bike Navigation Apps
 These apps have been the basis of my bachelor thesis in the field of Human-Computer Interaction at the University Of Bremen. There are two version, one similar to Beeline and the other having additional features. In general these are As-The-Crow-Flies biking navigation apps. However, they make use of a predefined routing scenario.
 If you are interested in research behind it, take a look at the following paper:
 https://dl.acm.org/doi/10.1145/3379503.3403539
